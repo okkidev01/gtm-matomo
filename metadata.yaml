@@ -1,5 +1,5 @@
 homepage: "https://okki.com/"
 documentation: "https://github.com/okkidev01/gtm-matomo"
 versions:
-  - sha: e71bc0b9349074685da0925bc8f9e6657e01e5e4
+  - sha: 07df0b98ff2bd07d77735558c243f0fd9b1039a4
     changeNotes: Initial Release.

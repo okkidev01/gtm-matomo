@@ -1,6 +1,8 @@
 homepage: "https://okki.com/"
 documentation: "https://github.com/okkidev01/gtm-matomo"
 versions:
+  - sha: 6e6a494e2a4cc166070bfe603792b658c9ca4fe6
+    changeNotes: Modify template.
   - sha: 699fc7e27c7af329f9e501d471d31e5ee3e621e7
     changeNotes: Modify template.
   - sha: 6273a348423f9e7559a035a7444935d1f377affd

@@ -267,7 +267,7 @@ scenarios:
   code: |-
     const mockData = {
       "idSite":"3",
-      "cmsUrl": "https://cms.xiaoman.cn".
+      "cmsUrl": "https://cms.xiaoman.cn",
       "matomoUrl": "https://matomo.datasanalytics.com/"
     };
 

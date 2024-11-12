@@ -14,11 +14,10 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Okki Matomo Tracking Tag",
-  "categories": ["ANALYTICS"],
   "brand": {
-    "id": "brand_matomo",
-    "displayName": "okki-shop-matomo",
-    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAADg0lEQVRIie2WXWxURRTHz8ydO/fubru7aWlrv4QW2vIh4AohYDYqLQ8aA5EQnwySGPURNTEmPviiGH0wmuAHBPABQqTGJ2NCaaqGKrYlaa0NJTRtpbvQhPYudW139967e2fm+CJ0d90KD/C28zhn5v+b+Z85J0MQER7moA9VvQwoAx7IYCsFlMLegVj/8Gw2J7Z21OzvagtVGHejmLJyo9+ruQkwK/X1naz9qZV0SMlCE1K9f3ywu2cCAAghQqrIhtov3u16ZFUAAJQ1bX/7lkr8SagGiEApj75qdB0uCSht0Xe9k+d6JgyDmQYzuBbw6X9MJI6cGJIKAaXb+wnevk64H5gBuglUz176On3tp/sF3JhLfdk9ynWN5E36TdY3GD93YQoyc3J2DJiZ5wJhQKYuHk06C/cGIOKnp4etpK1RUhTSGT36zeiVsRinCgqDlLLFZOzH8VP3Bpz/daZ3IGbyEsmnlCylnCPdN9I0REEVqViGeXX+wkxy6P8AiaTz2ZkRggArdFjOyOhN+dX1zZwiI4oAEECTyBlkV0J6wEd/i510xOIKAITPz/4et22t3gSTgigNMTTZPb/1w/ie2WxYILUV7/ur/Rit0et0n89ccOKXb57NX7/8TH+ZnHu9fwRW+4BRYks6tqSNLAEAFOcCACCnWJg5dTyVEb5c8NauZ35uaAowQwNABNi3/oNHw9sKbrDoiY8Tca/ND5wCAazU5NNVakdICVVCHoBTkVF80q61FN342FBNLWdcu3NieSl+IivSBYDzljXupHUk/7qvAAWau6rXbKgWXmkGAQQpWlsHm9bYht+4e1FKmJWZnlroLwCMp1JFThAEm+Chlx+vq/JLVSIfnoebO/TIE7cCQR8tqBkgQKz0VAEgyFiRBgKgVNvba98+tF39B6AUBiv0jw7vfW7nS8AkFO9FgwUKAHtqVvk0TeX1payUW4LBRsaf3712f+c62/XyJdyceO3AlrXNlZHmFxvDm4TK5qkrRo2WqicLANtCoTdbWhDAkdJVKiPlar//vfY2TigAvPPKjmikyXY9NyfcrHCy4oXOtoN7NwKATs3drW+EzUZPOkLlPOUi4s7mgw2Vm+5YnXfqgWSyx7L+9ryOQMWB+vp6c7k/26744eL08NV5TaPRSMOz0RamLddQOpe4ZvXdtmdMFlxXHW0ORZbzUf4XlQFlAPwDXYWGXACj6aEAAAAASUVORK5CYII\u003d"
+    "id": "brand_dummy",
+    "displayName": "",
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNi8wMi8yMgs8GX8AAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABsklEQVQ4jaWTQUhVQRSGvy4qKLUIJKiFG4Uz5Egg8WhVELiKAkUKAle5dFsgCLYMItC10KqNtAojIogWKaSulAOdWYlgm1oE9XBh2HXx5vLm3d59z/CH4fxz5sw//wxzyPOcqmGjIjYq9zvVpCOjO1aDdx+Cd4PdCruJHcU4AXwN3l0+i9ithA8CX4pJ8K7vf8WeluZDwbuXkS8F71rWz+V53lYleLcCzFYcch54BswBl0TtR4uz4N148O5x5I86CAG8AHojf/2Ps+DdLtAPTAG7HYQK/EkEb4ra5ywKjQBjwJUKoTrwrpTrTfgSNK+5GONAhYu6qN0BnlSsjwfvhrPgXT/woE3BMbAW+XsAUXtO4+Hb4W4G3C5ZLrAqaveA78BGkRS1eeBTm/qrPUCt4qS5GGvRZYoZ4KCUO8xotkyKZVH7GZ3si1rLRlH7BmyV9qxlwJtS8hhYqHCbwhJ+IGofM1FT4gNHvBW1+inE0qtPQ/NrTAJ7ke+cQgjgRoyzorYJrR1wAViPJ14Xtb9VKsG7MRqfe0bUXhX5noKI2m/gWvDuIY1G/tXB1UWgJmrbafIETKeymaj2iC4AAAAASUVORK5CYII\u003d"
   },
   "description": "Okki Matomo Tracking Tag",
   "containerContexts": [
@@ -35,15 +34,9 @@ ___TEMPLATE_PARAMETERS___
     "name": "idSite",
     "displayName": "Matomo idSite",
     "simpleValueType": true,
-    "valueHint": "1",
-    "notSetText": "Field is required",
-    "help": "The idSite you want to track data into.",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
-      },
-      {
-        "type": "POSITIVE_NUMBER"
       }
     ]
   },
@@ -52,8 +45,6 @@ ___TEMPLATE_PARAMETERS___
     "name": "siteUrl",
     "displayName": "site domain",
     "simpleValueType": true,
-    "valueHint": "1",
-    "notSetText": "Field is required",
     "help": "The site domian you want to track data into, exp: *.cnmingyang.com.",
     "valueValidators": [
       {
@@ -66,26 +57,24 @@ ___TEMPLATE_PARAMETERS___
     "name": "cmsUrl",
     "displayName": "cms url",
     "simpleValueType": true,
-    "valueHint": "1",
-    "notSetText": "Field is required",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "defaultValue": "https://cms.xiaoman.cn"
   },
-   {
+  {
     "type": "TEXT",
     "name": "matomoUrl",
-    "displayName": "matomo  url",
+    "displayName": "matomo url",
     "simpleValueType": true,
-    "valueHint": "1",
-    "notSetText": "Field is required",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "defaultValue": "https://matomo.datasanalytics.com/"
   }
 ]
 
@@ -115,21 +104,21 @@ var onFailure = function() {
 };
 
 if (data.idSite && data.siteUrl) {
-  log('data =', data);
+  log('data =', data, getUrl());
   
   var _paq = createQueue('_paq');
 
-  const currentUrl = window.location.href;
-  if (getUrl('query').includes('gclid=')) {
+  var query = getUrl('query');
+  if (query.indexOf('gclid=') > -1) {
     var id = getQueryParameters('gclid');
     var domain = getUrl('host');
-    var url = data.cmsUrl+ `/shop-api/External/Gclid?gclid=${id}&domain=${domain}`;
+    var url = data.cmsUrl+ '/shop-api/External/Gclid?gclid=' + id + '&domain=' + domain;
     sendPixel(url);
   }
 
   var gclid = getCookieValues('gclid');
   if (gclid) {
-    _paq(['setCustomDimension', (customDimensionId = 4), (customDimensionValue = gclid)]);
+    _paq(['setCustomDimension', {customDimensionId: 4, customDimensionValue: gclid}]);
   }
 
   _paq(['setDocumentTitle', getUrl('host') + '/' + readTitle()]);
@@ -146,6 +135,7 @@ if (data.idSite && data.siteUrl) {
   injectScript(trackingJSURL, onSuccess, onFailure, trackingJSURL);
 }
 
+
 ___WEB_PERMISSIONS___
 
 [
@@ -161,32 +151,6 @@ ___WEB_PERMISSIONS___
           "value": {
             "type": 1,
             "string": "debug"
-          }
-        }
-      ]
-    },
-    "clientAnnotations": {
-      "isEditedByUser": true
-    },
-    "isRequired": true
-  },
-  {
-    "instance": {
-      "key": {
-        "publicId": "inject_script",
-        "versionId": "1"
-      },
-      "param": [
-        {
-          "key": "urls",
-          "value": {
-            "type": 2,
-            "listItem": [
-              {
-                "type": 1,
-                "string": "https://shopcdnpro.grainajz.com/tpl-common/common/js/matomo.js"
-              }
-            ]
           }
         }
       ]
@@ -243,7 +207,7 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 8,
-                    "boolean": true
+                    "boolean": false
                   }
                 ]
               }
@@ -256,6 +220,106 @@ ___WEB_PERMISSIONS___
       "isEditedByUser": true
     },
     "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "get_cookies",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "cookieAccess",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "send_pixel",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "allowedUrls",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        }
+      ]
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "inject_script",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "urls",
+          "value": {
+            "type": 2,
+            "listItem": [
+              {
+                "type": 1,
+                "string": "https://shopcdnpro.grainajz.com/tpl-common/common/js/matomo.js"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "read_title",
+        "versionId": "1"
+      },
+      "param": []
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "get_url",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "urlParts",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        },
+        {
+          "key": "queriesAllowed",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        }
+      ]
+    },
+    "isRequired": true
   }
 ]
 
@@ -266,9 +330,10 @@ scenarios:
 - name: should_load_matomo_js
   code: |-
     const mockData = {
-      "idSite":"3",
+       "idSite":"3",
       "cmsUrl": "https://cms.xiaoman.cn",
-      "matomoUrl": "https://matomo.datasanalytics.com/"
+      "matomoUrl": "https://matomo.datasanalytics.com/",
+      "siteUrl": "*.cnmingyang.com"
     };
 
     // Call runCode to run the template's code.
@@ -280,6 +345,6 @@ scenarios:
 
 ___NOTES___
 
-Created on 08/11/2024, 12:31:16
+Created on 2024/11/12 15:49:27
 
 
